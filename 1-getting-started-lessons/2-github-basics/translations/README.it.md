@@ -80,7 +80,7 @@ Diciamo che si ha una cartella in locale con del codice di un progetto e che si 
         modified:   file2.txt
    ```
 
-   In genere un comando `git status` informa circa quali file sono pronti per essere  _salvati_ nel repository o quali modifiche sono state effettuate che si vogliono persistere.
+   In genere un comando `git status` ci informa su quali file sono pronti per essere  _salvati_ nel repository o quali modifiche sono state effettuate che si vogliono far persistere.
 
 1. **Aggiungere tutti i file per la tracciatura**
    Fase nota anche come aggiungere file nell'area di staging.
@@ -115,7 +115,7 @@ Diciamo che si ha una cartella in locale con del codice di un progetto e che si 
 
    Questo comando consente di togliere dall'area di staging uno specifico file che non si vuole includere nel commit successivo.
 
-1. **Persistere il proprio lavoro**. A questo punto sono stati aggiunti tutti i file alla cosiddetta _area di staging_. Un posto nel quale Git sta tracciando i propri file. Per rendere permanenti le modifiche occorre eseguire un'azione di _commit_ dei file. Per farlo si crea un _commit_ con il comando `git commit`. Un _commit_ rappresenta un punto di salvataggio nella storia del proprio repository. Digitare questo per creare un _commit_:
+1. **Far persistere il proprio lavoro**. A questo punto sono stati aggiunti tutti i file alla cosiddetta _area di staging_. Un posto nel quale Git sta tracciando i propri file. Per rendere permanenti le modifiche occorre eseguire un'azione di _commit_ dei file. Per farlo si crea un _commit_ con il comando `git commit`. Un _commit_ rappresenta un punto di salvataggio nella storia del proprio repository. Digitare questo per creare un _commit_:
 
    ```bash
    git commit -m "primo commit"
@@ -153,10 +153,10 @@ Diciamo che si ha una cartella in locale con del codice di un progetto e che si 
 
 #### Messaggi di commit
 
-Una grande riga di oggetto per un commit Git completa la seguente frase:
+Una eccellente riga di oggetto per un commit Git completa la seguente frase:
 Se applicato, questo commit farà ... (qui la vostra riga oggetto)
 
-Per l'oggetto utilizzare l'imperativo presente: "modifica" non "modificato" o "modifiche"- Come per l'oggetto nel corpo (opzionale) usar4 l'imperativo presente. Il corpo dovrebbe includere il motivo della modifica e il confronto con il precedente comportamento. Si sta spiegando il `perchè`, non il `come`.
+Per l'oggetto utilizzare l'imperativo presente: "modifica" non "modificato" o "modifiche". Come per l'oggetto, nel corpo (opzionale) usare l'imperativo presente. Il corpo dovrebbe includere il motivo della modifica e il confronto con il precedente comportamento. Si sta spiegando il `perchè`, non il `come`.
 
 ✅ Si prenda qualche minuto per esplorare GitHub. E' possibile scovare un bel messaggio di commit? Se ne puà trovare uno assolutamente minimale? Quali informazioni si pensa che siano le più importanti e utili per un messaggio di commit?
 
@@ -166,27 +166,27 @@ La ragione principale per inserire cose in GitHub è di fare in modo che si poss
 
 ## Lavorare su progetti con altri
 
-Nel proprio repository, portarsi a `Insights > Community` per vedere come il proprio progetto si confronta con gli standard della comunità.
+Nel proprio repository, portarsi su `Insights > Community` per vedere come il proprio progetto si confronta con gli standard della comunità.
 
    Ecco alcune cose che possono migliorare il proprio repository GitHub:
    - **Descrizione**. E' stata aggiunta una descrizione per il proprio progetto?
    - **README**. E' stato aggiunto un README (leggimi)? GitHub fornisce una traccia per scrivere un [README](https://docs.github.com/articles/about-readmes/).
-   - **Linee guida per contribuire**. Il proprio progetto fornisce [linne guida per contribuire](https://docs.github.com/articles/setting-guidelines-for-repository-contributors/), 
+   - **Linee guida per contribuire**. Il proprio progetto fornisce [linee guida per contribuire](https://docs.github.com/articles/setting-guidelines-for-repository-contributors/), 
    - **Codice di Condotta**. un [Codice di Condotta](https://docs.github.com/articles/adding-a-code-of-conduct-to-your-project/), 
-   - **Licenza**. Forse la più imporatante, una [licenza](https://docs.github.com/articles/adding-a-license-to-a-repository/)?
+   - **Licenza**. Forse la più importante, una [licenza](https://docs.github.com/articles/adding-a-license-to-a-repository/)?
 
-Tutte queste risorse favoriranno la salita a bordo di nuovi elementi nella squadra. Queste sono in genere il tipo di cose che i nuovi contributori cercano anche prima di dare un'occhiata al codice, per scoprire se il progetto è il posto giusto per spendere il loro tempo.
+Tutte queste risorse favoriranno l' inserimento di nuovi elementi nella squadra. Queste sono in genere il tipo di cose che i nuovi contributori cercano anche prima di dare un'occhiata al codice, per scoprire se il progetto è il posto giusto per spendere il loro tempo.
 
 ✅ I file README, sebbene richiedono tempo per prepararli, sono spesso trascurati da manutentori troppo occupati. E' possibile trovare un esempio di uno particolarmente descrittivo? Nota: ci sono alcuni [strumenti per aiutare la creazione di buoni  README](https://www.makeareadme.com/) che si potrebbero provare.
 
-### Compito: Fondere del codice
+### Compito: Accorpare del codice
 
 La documentazione per la collaborazione aiuta a fare sì che la gente contribuisca al progetto. Spiega che tipo di collaborazione ci si deve attendere e come funziona il processo. I contributori dovranno compiere una serie di passi per poter contribuire a un repository su GitHub:
 
 1. **Biforcare il repository** Probabilmente si vorrà che la gente possa  _biforcare_ il proprio progetto (forking). Questa azione crea una replica di un repository al quale si vuole contribuire sul profilo del contributore su GitHub.
-1. **Clonare**. Da qui verrà eseguita una azione di clonazione del progetto sulla  macchina locale del contributore. 
+1. **Clonare**. Da qui verrà eseguita una azione di clonazione del progetto sulla macchina locale del contributore. 
 1. **Creare un ramo**. Sarà richiesto al contributore di creare un _ramo_ (branch) per il suo lavoro. 
-1. **Concentrare le modifiche del contributore su una area**. Richiedere ai contributori di concentrarsi su una cosa sola alla volta - in questo modo le possibilità che si possa _fondere_ (merge) il lavoro del contributore sono più alte. Se viene scritta la risoluzione di un bug, o viene aggiunta una nuova funzionalità o vengono aggiornati parecchi test - cosa succede se si vuole o si può, solo implementarne 2 su 3 o 1 su 3 di queste modifiche?
+1. **Concentrare le modifiche del contributore su una area**. Richiedere ai contributori di concentrarsi su una cosa sola alla volta - in questo modo le possibilità che si possa _accorpare_ (merge) il lavoro del contributore sono più alte. Se viene scritta la risoluzione di un bug, o viene aggiunta una nuova funzionalità o vengono aggiornati parecchi test - cosa succede se si vuole o si può, solo implementarne 2 su 3 o 1 su 3 di queste modifiche?
 
 ✅ Si immagini una situazione dove i rami sono particolarmente critici per la scrittura e lo sviluppo di buon codice. A quali casi d'uso sono stati individuati?
 
@@ -229,7 +229,7 @@ Si analizza il flusso di lavoro di un contributore. Si assume che egli abbia gi�
    git merge main
    ```
 
-   Questo porterà tutte le modifiche da `main` verso il proprio ramo, augurandosi che si possa poi continuare. In caso contrario VS Code vi può indicare dove Git si _confonde_ e si potranno modificare i file coinvolti per determinare quale contenuto sia il più accurato.
+   Questo porterà tutte le modifiche da `main` verso il proprio ramo, augurandosi che si possa poi continuare. In caso contrario VS Code vi può indicare dove Git si _confonde_ (confused) e si potranno modificare i file coinvolti per determinare quale contenuto sia il più accurato.
 
 1. **Inviare il proprio lavoro a GitHub**. Questo significa due cose. Spingere il proprio ramo verso il proprio repository, quindi aprire una PR, Pull Request.
 
@@ -239,7 +239,7 @@ Si analizza il flusso di lavoro di un contributore. Si assume che egli abbia gi�
 
    Il comando qui sopra crea il ramo sulla propria biforcazione del repository.
 
-1. **Aprire una PR**. Successivamente, si vorrà aprire una Pull Request. Si fa portandosi nel repository biforcato su GitHub. Si vedrà una indicazione su GitHub dove viene chiesto se si vuol creare una nuova PR, cliccando su questa si verrà portati su una interfaccia dove si potrà cambiare il titolo del messaggio di commit e fornire una descrizione più adatta. Ora il manutentore del repository che è stato biforcato vedrà questa PR e _incrociando le dita_ apprezzerà e _fonderà_ (merge) la PR. Ora si avrà contribuito, yay :)
+1. **Aprire una PR**. Successivamente, si vorrà aprire una Pull Request. Si fa portandosi nel repository biforcato su GitHub. Si vedrà una indicazione su GitHub dove viene chiesto se si vuol creare una nuova PR, cliccando su questa si verrà portati su una interfaccia dove si potrà cambiare il titolo del messaggio di commit e fornire una descrizione più adatta. Ora il manutentore del repository che è stato biforcato vedrà questa PR e _incrociando le dita_ apprezzerà e _accorperà_ (merge) la PR. Ora si avrà contribuito, yay :)
 
 1. **Pulire**. E' considerata buona pratica effettuare una _pulizia_ dopo il lavoro compiuto. Si vorrà pulire sia il ramo locale che quello spinto su GitHub. Per prima cosa cancellarlo localmente con il comando: 
 
