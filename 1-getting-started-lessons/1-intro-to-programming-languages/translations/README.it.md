@@ -191,4 +191,4 @@ Studiate un poco sui diversi linguaggi di programmazione a disposizione di un pr
 
 ## Compito 
 
-[Leggere la documentazione](assignment.it.md)
+[Leggere la documentazione]()
