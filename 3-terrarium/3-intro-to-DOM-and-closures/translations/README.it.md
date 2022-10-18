@@ -73,7 +73,7 @@ Cosa sta succedendo qui? Si sta referenziando il documento e guardando attravers
 
 Ora si è pronti per creare la closure dragElement, che è una funzione esterna che racchiude una o più funzioni interne (nel nostro caso, ne avremo tre).
 
-Le closure sono utili quando una o più funzioni devono accedere all'ambito di una funzione più esterna. Ecco un esempio:
+Le closure sono utili quando una o più funzioni devono accedere allo scopo di una funzione più esterna. Ecco un esempio:
 
 ```javascript
 function displayCandy(){
@@ -189,7 +189,7 @@ Questa piccola funzione reimposta gli eventi `onpointerup` e `onpointermove` in 
 
 ✅ Cosa succede se non si impostano questi eventi su null?
 
-Ora tsdi è completato il progetto!
+Ora hai completato il progetto!
 
 🥇Congratulazioni! Il meraviglioso terrario è finito![](../images/terrarium-final.png)
 
