@@ -28,7 +28,7 @@ Usare questi comandi sul proprio git bash:
 * `touch index.html`
 * `code index.html` oppure `nano index.html`
 
-> I file index.html indicano a un browser che è il file predefinito in una cartella; URL come `https://anysite.com/test` potrebbero essere creati utilizzando una struttura di cartelle che includa una cartella chiamata `test` con `index.html` al suo interno; `index.html` non deve essere visualizzato in un URL.
+> I file index.html indicano un browser che è il file predefinito in una cartella; URL come `https://anysite.com/test` potrebbero essere creati utilizzando una struttura di cartelle che includa una cartella chiamata `test` con `index.html` al suo interno; `index.html` non deve essere visualizzato in un URL.
 
 ---
 
@@ -214,7 +214,7 @@ Aggiungere questo markup sopra l'ultimo tag `</div>`:
 
 ## 🚀 Sfida
 
-Ci sono alcuni "vecchi" selvaggi tag in HTML con cui è ancora divertente giocare, anche se non si dovrebero usare tag deprecati come [questi tag](https://developer.mozilla.org/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) nel proprio markup. Tuttavia, si può usare il vecchio tag `<marquee>` per far scorrere orizzontalmente il titolo h1? (se viene fatto, non dimenticarsi di rimuoverlo dopo)
+Ci sono alcuni "vecchi" tag selvaggi in HTML con cui è ancora divertente giocare, anche se non si dovrebero usare tag deprecati come [questi tag](https://developer.mozilla.org/docs/Web/HTML/Element#Obsolete_and_deprecated_elements) nel proprio markup. Tuttavia, si può usare il vecchio tag `<marquee>` per far scorrere orizzontalmente il titolo h1? (se viene fatto, non dimenticarsi di rimuoverlo dopo)
 
 ## Quiz Post-Lezione
 
